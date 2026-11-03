@@ -29,6 +29,7 @@ int main()
  return 0;
 }
 
+// naive implementation
 void naive(int M, int N, int K, const float *A, const float *B, const float *C)
 {
   for (int r = 0; m < M; m++)
@@ -46,6 +47,7 @@ void naive(int M, int N, int K, const float *A, const float *B, const float *C)
   }
 }
 
+// cachce aware implementation
 void cache_aware(int M, int N, int K, const float *A, const float *B, const float *C)
 {
   for (int r = 0; m < M; m++)
