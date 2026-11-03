@@ -1,26 +1,6 @@
-#include <algorithm>
-#include <array>
-#include <bitset>
-#include <cassert>
-#include <cmath>
-#include <cstdio>
-#include <deque>
-#include <functional>
-#include <iomanip>
-#include <iostream>
-#include <limits>
-#include <map>
-#include <numeric>
-#include <queue>
-#include <set>
-#include <stack>
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <utility>
-#include <vector>
-using namespace std;
-using ll = long long;
+// reading these: 
+// https://siboehm.com/articles/22/Fast-MMM-on-CPU
+// https://easonhuang.dev/blog/optimizing_matmul
 
 int main()
 {
